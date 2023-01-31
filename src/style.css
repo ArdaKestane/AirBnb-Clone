@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Popping', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+    max-width: 300px;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-photo {
+    max-width: 600px;
+    align-self: center;
+}
+
+.hero-header {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-top: 0;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-star {
+    height: 14px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
